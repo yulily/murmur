@@ -8,4 +8,5 @@ export default defineConfig({
 	site: 'https://yulily.github.io',
 	base: '/murmur',
 	integrations: [mdx(), sitemap()],
+	plugins: [mdx()],
 });

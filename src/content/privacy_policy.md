@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/PrivacyPolicy.astro
 title: "プライバシーポリシー"
 description: "プライバシーポリシー"
 pubDate: "Mar 23 2023"

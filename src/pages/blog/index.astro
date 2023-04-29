@@ -27,6 +27,11 @@ const posts = (await getCollection('blog')).sort(
 				flex: 0 0 130px;
 				font-style: italic;
 				color: #eee;
+				padding: .2em 0;
+			}
+			ul li a {
+				width: 100%;
+				color: #ddd;
 			}
 			ul li a:visited {
 				color: #ddd;
@@ -43,7 +48,7 @@ const posts = (await getCollection('blog')).sort(
 						posts.map((post) => (
 							<li>
 								<FormattedDate date={post.data.pubDate} />
-								<a href={`/murmur/blog/${post.slug}/`}>{post.data.title}</a>
+								<a href={`/murmur/blog/${post.slug}/`} class="linkButton">{post.data.title}</a>
 							</li>
 						))
 					}

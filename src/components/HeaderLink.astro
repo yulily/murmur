@@ -19,8 +19,11 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, '');
 	li {
 		display: inline-block;
 	}
+	li a {
+		padding: .2em .5em;
+	}
 	li a.active {
-		font-weight: bolder;
 		text-decoration: underline;
+		background-color: rgba(255, 255, 255, .2);
 	}
 </style>

@@ -1,12 +1,12 @@
 ---
 layout: ../layouts/MarkdownContent.astro
-title: "プライバシーポリシー"
-description: "プライバシーポリシー"
+title: "Privacy Policy"
+description: "Privacy Policy"
 pubDate: "Mar 23 2023"
 updatedDate: "Mar 23 2023"
 ---
 
-当ウェブサイトの利用にあたり、ご提供いただいた個人情報は、適切に管理し、保護いたします。このプライバシーポリシーは、当ウェブサイトが収集する個人情報の取り扱いに関する規定です。
+当ウェブサイトの利用にあたり、ご提供いただいた個人情報は、適切に管理し、保護いたします。このPrivacy Policyは、当ウェブサイトが収集する個人情報の取り扱いに関する規定です。
 
 【収集する個人情報】
 

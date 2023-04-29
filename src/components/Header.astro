@@ -5,22 +5,24 @@ import { SITE_TITLE } from '../consts';
 
 <header>
     <h2>
-		{SITE_TITLE}
+		<a href="/murmur/">{SITE_TITLE}</a>
 	</h2>
 	<nav>
-		<HeaderLink href="/murmur/">Home</HeaderLink>
-        <HeaderLink href="/murmur/about">About</HeaderLink>
-		<HeaderLink href="/murmur/blog">Blog</HeaderLink>
-        <HeaderLink href="/murmur/privacy_policy">Privacy Policy</HeaderLink>
-		<HeaderLink href="https://twitter.com/shiriit_" target="_blank">Twitter</HeaderLink>
-		<HeaderLink href="https://github.com/yulily" target="_blank">GitHub</HeaderLink>
+		<ul>
+			<HeaderLink href="/murmur/about">About</HeaderLink>
+			<HeaderLink href="/murmur/blog">Blog</HeaderLink>
+			<HeaderLink href="/murmur/privacy_policy">Privacy Policy</HeaderLink>
+			<HeaderLink href="https://twitter.com/shiriit_" target="_blank">Twitter</HeaderLink>
+			<HeaderLink href="https://github.com/yulily" target="_blank">GitHub</HeaderLink>
+		</ul>
 	</nav>
 </header>
 <style>
 	header {
-		margin: 0em 0 2em;
+		margin: 0em 0 1em;
 	}
-	h2 {
-		margin: 0.5em 0;
+	ul {
+		margin: 0;
+		padding: 0;
 	}
 </style>

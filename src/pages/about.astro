@@ -10,8 +10,45 @@ import Layout from '../layouts/PageContent.astro';
 	updatedDate={new Date('August 08 2023')}
 	heroImage="/murmur/placeholder-about.jpg"
 >
-	<p>
-		I'm yulily, who engineers while drawing pictures.
-	</p>
+	<dl>
+		<dt>name:</dt>
+		<dd>yulily</dd>
+		<dt>job:</dt>
+		<dd>Engineer</dd>
+		<dt>Language</dt>
+		<dd>PHP, JavaScript, Scala, Groovy, Java</dd>
+		<dt>Database</dt>
+		<dd>MySQL</dd>
+		<dt>Infrastructure</dt>
+		<dd>Terraform, Ansible</dd>
+		<dt>CI/CD tool</dt>
+		<dd>Jenkins, GitHub Actions</dd>
+		<dt>Cloud platform</dt>
+		<dd>AWS</dd>
+		<dt>Operating system</dt>
+		<dd>Linux, Windows Server</dd>
+	</dl>
+	<p>専門学校では Webデザインを学び卒業後は、Web制作会社でアシスタントとして働き、最終的にはフロントエンドエンジニアとして働いておりました。<br />
+		そこでゲーム制作に携わった際に、仕組みを考える面白さに惹かれ、上京してゲーム会社に転職しました。</p>
+	<p>8年間ほどバックエンドエンジニアとして、Webブラウザのゲームからスマートフォンアプリのゲームまで、様々なゲームの開発に携わり経験を積みました。</p>
+	<p>現在は、Web業界に戻り、ネットショップ作成サービスの開発に携わっています。Ruby, Vue 勉強中!</p>
 	<a class="twitter-timeline" data-lang="en" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/shiriit_?ref_src=twsrc%5Etfw">Tweets by shiriit_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </Layout>
+<style>
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dd, dt {
+	margin: 0 0 .5em;
+	padding: 1%;
+}
+dl dt {
+  width: 40%;
+  background-color: rgba(255, 255, 255, .3);
+  text-align: right;
+}
+dl dd {
+  width: 55%;
+}
+</style>
